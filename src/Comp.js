@@ -61,6 +61,7 @@ class Comp extends React.Component {
     render() {
         return (
             <div className="Comp">
+                <h1>added this heading</h1>
                 <p>hello Comp {this.state.color}</p>
                 <p>this number is {this.state.x}</p>
                 <button onClick={this.getNumbers}>click</button> 
